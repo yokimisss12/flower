@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
 export default {
   name: "menuList",
   data() {
@@ -20,5 +19,18 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+.menuList {
+  display: flex;
+  padding: 10px 60px;
+  background: forestgreen;
+  box-shadow: 0 2px 24px #086408;
+  a {
+    color: #b3cf5e;
+  }
+  a:hover {
+    color: #f8e6e6;
+  }
+
+}
 </style>

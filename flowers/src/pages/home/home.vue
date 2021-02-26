@@ -1,23 +1,24 @@
 <template>
   <div class="hello">
     <menuList></menuList>
-    <flowerList></flowerList>
     <!-- 轮播组件 -->
-    <pictures></pictures>
+    <!-- <pictures></pictures> -->
+    <!-- 列表组件 -->
+    <flowerList></flowerList>
   </div>
 </template>
 
 <script>
 import menuList from "../../components/menu";
-import flowerList from '../../components/flowerList/flowerList';
-import pictures from '../../components/pictures/pictures';
+import flowerList from "../../components/flowerList/flowerList";
+import pictures from "../../components/pictures/pictures";
 
 export default {
   name: "home",
   components: {
     menuList,
     flowerList,
-    pictures
+    pictures,
   },
   data() {
     return {
